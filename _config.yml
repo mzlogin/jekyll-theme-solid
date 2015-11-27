@@ -1,0 +1,36 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: 
+url: http://www.mazhuang.org
+date_format: "ordinal"
+title: 靠谱-ing
+author: Zhuang Ma 
+paginate: 9
+
+# ---------------- #
+#   RSS / Email    #
+# ---------------- #
+subscribe_rss: /atom.xml
+email:
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: redcarpet
+redcarpet: 
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
+pygments: true
+permalink: /:year/:month/:day/:title
+gems:
+    - jekyll-sitemap
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+duoshuo_short_name: mazhuang
+changyan: false

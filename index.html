@@ -1,0 +1,15 @@
+---
+layout: default
+description: Zhuang Ma's Blog
+keywords: Zhuang Ma, 马壮, mzlogin, mazhuang
+---
+
+<div class="postlist">
+    {% for post in paginator.posts %}
+    <div class="overview">
+        <div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
+        <div class="detail"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+    </div>
+    {% endfor %}
+</div>
+{% include pagination.html %}
