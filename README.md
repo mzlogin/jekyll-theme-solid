@@ -1,38 +1,4 @@
-靠谱-ing
+jekyll-theme-solid
 =================
 
-我的个人博客：<http://mazhuang.org>
-
-欢迎 Star 和 Fork。
-
-### 书写原则
-
-1. 简约，尽量每个页面都不展示多余的内容。
-
-2. 有时一图抵千言，有时可能只会拖慢网页加载速度。
-
-3. 言之有物，不做无痛之呻吟。
-
-### 书写提示
-
-1. keywords
-
-    以 C++ 这样的开头会有问题，需要转义。
-
-1. toc link
-    * 字母要全小写。
-    * `/` 和「空格」需要使用 `-` 替换。
-    * `!`、`(` 和 `)` 直接省略掉。
-    * `"` 会被替换为 `quot`，与前后的内容使用 `-` 连接。
-
-1. 中文与英文
-
-    中英文之间要加空格，更多中文文案排版规范可以参考 [mzlogin/chinese-copywriting-guidelines](https://github.com/mzlogin/chinese-copywriting-guidelines)。
-
-1. 列表项下嵌套内容
-    * 如果嵌套非列表，需要缩进并且加空行。
-    * 如果嵌套列表，需要缩进，但不加空行。
-
-### 书写思考
-
-* 那些高质量的博主，他们的行文，内容组织方式，有什么值得学习借鉴的地方？
+A simple and clean jekyll theme without javascript.

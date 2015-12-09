@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: http://www.mazhuang.org
+url: http://mazhuang.org/jekyll-theme-solid
 date_format: "ordinal"
-title: 靠谱-ing
+title: jekyll-theme-solid
 author: Zhuang Ma 
 paginate: 9
 
 # ---------------- #
 #   RSS / Email    #
 # ---------------- #
-subscribe_rss: /atom.xml
+subscribe_rss: /feed.xml
 email:
 
 # ---------------- #
@@ -21,9 +21,11 @@ markdown: redcarpet
 redcarpet: 
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
 pygments: true
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 gems:
     - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
 collections:
     wiki:
         output: true
