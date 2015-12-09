@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl: 
+baseurl: http://mazhuang.org/jekyll-theme-solid
 url: http://mazhuang.org/jekyll-theme-solid
 date_format: "ordinal"
 title: jekyll-theme-solid
