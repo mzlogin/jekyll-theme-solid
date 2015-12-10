@@ -8,5 +8,4 @@ permalink: /links/
 
 <ul>
 <li><a href="http://mazhuang.org/">码志</a></li>
-<li><a href="http://zxning.github.io/">只宁静不致远</a></li>
 </ul>

@@ -3,7 +3,7 @@ layout: page
 title: Zhuang Ma
 description: Zhuang Ma的个人简介。
 keywords: Zhuang Ma, 马壮
-permalink: /about.html
+permalink: /about/
 ---
 
 **Software Engineer at [Sogou, Inc.](http://www.sogou.com)**
@@ -16,7 +16,7 @@ scholar, CS/IT
 
 *Contact:* `print '%s@%s' % ('ChumpMa', 'gmail.com')  #via Python`
 
-*Social:*  [github](http://github.com/mzlogin) | [linkedin](http://www.linkedin.com/in/mazhuang) | [weibo](http://weibo.com/mzlogin) | [douban](http://www.douban.com/people/freedim/) | [csdn](http://blog.csdn.net/mzlogin)
+*Social:*  [github](http://github.com/mzlogin) | [linkedin](http://www.linkedin.com/in/mazhuang) | [weibo](http://weibo.com/mzlogin) | [douban](http://www.douban.com/people/freedim/) | [blog](http://mazhuang.org)
     
 ```c++
 #include <iostream>

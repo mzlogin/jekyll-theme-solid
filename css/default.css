@@ -127,6 +127,11 @@ img {
   max-width: 100%;
 }
 
+img.emoji {
+  display: inline;
+  margin-bottom: 0;
+}
+
 hr {
   border: 0;
   height: 2px;
