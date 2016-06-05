@@ -6,7 +6,6 @@ url: http://mazhuang.org/jekyll-theme-solid
 date_format: "ordinal"
 title: jekyll-theme-solid
 author: Zhuang Ma 
-paginate: 9
 
 # ---------------- #
 #   RSS / Email    #
@@ -17,12 +16,13 @@ email:
 # ---------------- #
 #      Jekyll      #
 # ---------------- #
-markdown: redcarpet
-redcarpet: 
-    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
-pygments: true
+markdown: kramdown
+kramdown:
+    input: GFM
+paginate: 9
 permalink: /:year/:month/:day/:title/
 gems:
+    - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
