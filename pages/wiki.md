@@ -7,9 +7,9 @@ permalink: /wiki/
 ---
 
 <ul>
-{% for doc in site.documents %}
-{% if doc.title != "Wiki Template" %}
-<li><a href="{{ site.url }}{{ doc.url }}">{{ doc.title }}</a></li>
+{% for wiki in site.wiki %}
+{% if wiki.title != "Wiki Template" %}
+<li><a href="{{ site.url }}{{ wiki.url }}">{{ wiki.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
