@@ -6,12 +6,11 @@
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <script>
 var cloudTieConfig = {
-  url:,
-  sourceId: "{{ page.url }}",
-  productKey: "{{ site.netease_gentie_key }}",
+  url: document.location.href, 
+  sourceId: "",
+  productKey: "560ed243b708465d82d5a0a5f3b83da1",
   target: "cloud-tie-wrapper"
 };
 var yunManualLoad = true;
 Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
-</script>
-{% endif %}
+</script>{% endif %}
