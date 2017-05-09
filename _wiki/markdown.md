@@ -157,8 +157,8 @@ Tips: `#` 与标题中间要加空格。
 print 'Hello, World!'
 ```
 
-```python
-{% site.author %}
+```
+{\% site.author %}
 ```
 
 ### 图片
