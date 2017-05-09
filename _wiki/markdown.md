@@ -157,8 +157,10 @@ Tips: `#` 与标题中间要加空格。
 print 'Hello, World!'
 ```
 
-```liquid
+```
+{% raw %}
 {% site.author %}
+{% endraw %}
 ```
 
 ### 图片
